@@ -1,7 +1,6 @@
 package com.ilCarro.qa14;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -10,8 +9,8 @@ public class HeaderTest extends TestBase {
 
     @BeforeMethod
     public void ensurePrecondition() {
-        if (!isElementPresent(By.cssSelector("[href='/signup']"))) {
-            wd.findElement(By.xpath("//a[contains(.,'logOut')]")).click();
+        if (!isSignUpButtonPresent()) {
+            logout();
             //sign up not present
             //click on logout button
         }
@@ -20,27 +19,30 @@ public class HeaderTest extends TestBase {
 
     @Test
     public void searchButtonTest() {
-        wd.findElement(By.cssSelector("[href='/search']")).click();
-        Assert.assertTrue(isElementPresent(By.cssSelector(".search-sidebar__tab.tab-first")));
+        clickOnSearchTab();
+        isSearchFormPresent();
 
     }
+
     @Test
-    public void letTheCarWorkButtonTest(){
-        wd.findElement(By.xpath("//ul[@class='header__nav desktop']//li//a[@href='/car']")).click();
-        String text = wd.findElement(By.xpath("//h4[contains(.,'Price per day')]")).getText();
-        Assert.assertEquals(text.toLowerCase(), "price per day:");
+    public void letTheCarWorkButtonTest() {
+        clickOnAddCarTab();
+        isPricePerDayTabPresent();
     }
+
     @Test
-    public void termsOfUseButtonTest(){
-        wd.findElement(By.xpath("//ul[@class='header__nav desktop']//li[3]")).click();
-        Assert.assertTrue(isElementPresent(By.id("root")));
+    public void termsOfUseButtonTest() {
+        clickOnTermsOfUseTab();
+        isTermsOfUseFormPresent();
+        goToHomePage();
 
     }
+
     @Test
-    public void logOutButtonTest(){
-        wd.findElement(By.cssSelector("[href='/login']")).click();
-        String text = wd.findElement(By.xpath("//div[@class='signup__registration_title ']//h2")).getText();
-        Assert.assertEquals(text.toLowerCase(), "log in");
+    public void logInButtonTest() {
+        clickOnLoginTab();
+        isLoginTitlePresent();
 
     }
+
 }
