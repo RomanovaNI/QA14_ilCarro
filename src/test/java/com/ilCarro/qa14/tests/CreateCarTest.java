@@ -1,24 +1,23 @@
 package com.ilCarro.qa14;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class CreateCarTest extends TestBase {
     @BeforeMethod
     public void ensurePreconditions() {
-        if (!isUserLoggedIn()) {
-            logIn();
+        if (!app.user.isUserLoggedIn()) {
+            app.user.logIn();
         }
 
     }
 
     @Test
     public void addCarTest() throws InterruptedException {
-        pause();
-        clickOnAddCarTab();
+        app.user.pause();
+        app.car.clickOnAddCarTab();
 
-        fillCarForm(new Car()
+        app.car.fillCarForm(new Car()
                 .setCountry("Germany")
                 .setAddress("Friedrichstrasse")
                 .setDistance("1000"));

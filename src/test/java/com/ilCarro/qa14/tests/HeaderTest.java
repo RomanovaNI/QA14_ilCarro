@@ -1,7 +1,5 @@
 package com.ilCarro.qa14;
 
-import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -9,8 +7,8 @@ public class HeaderTest extends TestBase {
 
     @BeforeMethod
     public void ensurePrecondition() {
-        if (!isSignUpButtonPresent()) {
-            logout();
+        if (!app.user.isSignUpButtonPresent()) {
+            app.user.logout();
             //sign up not present
             //click on logout button
         }
@@ -19,29 +17,29 @@ public class HeaderTest extends TestBase {
 
     @Test
     public void searchButtonTest() {
-        clickOnSearchTab();
-        isSearchFormPresent();
+        app.header.clickOnSearchTab();
+        app.header.isSearchFormPresent();
 
     }
 
     @Test
     public void letTheCarWorkButtonTest() {
-        clickOnAddCarTab();
-        isPricePerDayTabPresent();
+        app.car.clickOnAddCarTab();
+        app.header.isPricePerDayTabPresent();
     }
 
     @Test
     public void termsOfUseButtonTest() {
-        clickOnTermsOfUseTab();
-        isTermsOfUseFormPresent();
-        goToHomePage();
+        app.header.clickOnTermsOfUseTab();
+        app.header.isTermsOfUseFormPresent();
+        app.header.goToHomePage();
 
     }
 
     @Test
     public void logInButtonTest() {
-        clickOnLoginTab();
-        isLoginTitlePresent();
+        app.user.clickOnLoginTab();
+        app.header.isLoginTitlePresent();
 
     }
 
