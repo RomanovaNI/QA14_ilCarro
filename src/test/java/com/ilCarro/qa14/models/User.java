@@ -1,4 +1,4 @@
-package com.ilCarro.qa14;
+package com.ilCarro.qa14.models;
 
 public class User {
     private String firstName;
@@ -40,5 +40,15 @@ public class User {
 
     public String getPassword() {
         return password;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", secondName='" + secondName + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }

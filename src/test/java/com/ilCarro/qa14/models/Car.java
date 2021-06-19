@@ -1,4 +1,4 @@
-package com.ilCarro.qa14;
+package com.ilCarro.qa14.models;
 
 public class Car {
     private String country;
@@ -30,5 +30,14 @@ public class Car {
 
     public String getDistance() {
         return distance;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "country='" + country + '\'' +
+                ", address='" + address + '\'' +
+                ", distance='" + distance + '\'' +
+                '}';
     }
 }
