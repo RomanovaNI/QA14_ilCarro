@@ -1,4 +1,4 @@
-package com.ilCarro.qa14;
+package com.ilCarro.qa14.tests;
 
 import org.testng.annotations.Test;
 
@@ -6,7 +6,7 @@ public class OpenHomePageTest extends TestBase {
 
     @Test
 public void homePageTest(){
-    System.out.println("FindCarForm "+ app.car.isFindCarForPresent());
+    System.out.println("FindCarForm "+ app.car().isFindCarForPresent());
     //.Main_mainpage__find_your_car__AHLkw
 }
 
