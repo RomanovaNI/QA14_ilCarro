@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ilCarro.qa14.tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-19T09:31:34" hostname="Saschas-MBP.fritz.box" time="1.121">
+  <properties/>
+  <testcase name="loginRegisteredUserPositiveTest" classname="com.ilCarro.qa14.tests.LoginTests" time="1.121"/>
+  <system-out><![CDATA[11:31:34.663 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - Start test loginRegisteredUserPositiveTest with data: []
+11:31:34.673 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - Start search By.cssSelector: [href='/signup']
+11:31:34.703 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - By.cssSelector: [href='/signup'] found. 
+11:31:34.712 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - Start search By.cssSelector: [href='/login']
+11:31:34.727 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - By.cssSelector: [href='/login'] found. 
+11:31:34.816 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - Start search By.cssSelector: [name='email']
+11:31:34.851 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - By.cssSelector: [name='email'] found. 
+11:31:34.984 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - Start search By.cssSelector: [name='email']
+11:31:34.998 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - By.cssSelector: [name='email'] found. 
+11:31:35.030 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - Start search By.cssSelector: [name='email']
+11:31:35.038 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - By.cssSelector: [name='email'] found. 
+11:31:35.196 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - Start search By.name: password
+11:31:35.214 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - By.name: password found. 
+11:31:35.274 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - Start search By.name: password
+11:31:35.285 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - By.name: password found. 
+11:31:35.312 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - Start search By.name: password
+11:31:35.320 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - By.name: password found. 
+11:31:35.385 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - Start search By.cssSelector: [type="submit"]
+11:31:35.399 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - By.cssSelector: [type="submit"] found. 
+11:31:35.445 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - Start search By.xpath: //a[contains(.,'logOut')]
+11:31:35.829 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - By.xpath: //a[contains(.,'logOut')] found. 
+11:31:35.836 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - PASSED: test method loginRegisteredUserPositiveTest
+11:31:35.837 [Test worker] INFO  com.ilCarro.qa14.tests.TestBase - ============================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
