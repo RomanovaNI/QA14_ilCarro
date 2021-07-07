@@ -1,0 +1,19 @@
+18:18:19.049 [main] DEBUG com.codeborne.selenide.impl.Plugins - Using default implementation of com.codeborne.selenide.impl.Photographer: com.codeborne.selenide.impl.WebdriverPhotographer
+18:18:19.053 [main] DEBUG com.codeborne.selenide.impl.Plugins - Using default implementation of com.codeborne.selenide.impl.PageSourceExtractor: com.codeborne.selenide.impl.WebPageSourceExtractor
+18:18:19.058 [main] DEBUG com.codeborne.selenide.impl.Plugins - Using default implementation of com.codeborne.selenide.impl.PageObjectFactory: com.codeborne.selenide.impl.SelenidePageFactory
+18:18:19.075 [main] DEBUG c.c.selenide.impl.CiReportUrl - Variable selenide.reportsUrl not found
+18:18:19.079 [main] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+18:18:19.105 [main] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: /Users/natalia/ProjectTelRan/QA/QA14_ilCarro/build/downloads/1625674699080_2452_1
+18:18:19.108 [main] DEBUG c.c.s.webdriver.WebDriverFactory - browser=chrome
+18:18:19.108 [main] DEBUG c.c.s.webdriver.WebDriverFactory - browser.version=null
+18:18:19.109 [main] DEBUG c.c.s.webdriver.WebDriverFactory - remote=null
+18:18:19.109 [main] DEBUG c.c.s.webdriver.WebDriverFactory - browserSize=1366x768
+18:18:19.109 [main] DEBUG c.c.s.webdriver.WebDriverFactory - startMaximized=false
+18:18:19.109 [main] DEBUG c.c.s.webdriver.WebDriverFactory - downloadsFolder=/Users/natalia/ProjectTelRan/QA/QA14_ilCarro/build/downloads/1625674699080_2452_1
+18:18:19.781 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=91 in cache (valid until 19:15:17 07/07/2021 CEST)
+18:18:19.785 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome91=91.0.4472.101 in cache (valid until 09:53:48 08/07/2021 CEST)
+18:18:19.786 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+18:18:19.871 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 91.0.4472.101 found in cache
+18:18:19.875 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/natalia/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
+18:18:19.892 [main] DEBUG c.c.s.webdriver.ChromeDriverFactory - Using chrome preferences: {credentials_enable_service=false, plugins.always_open_pdf_externally=true, profile.default_content_setting_values.automatic_downloads=1, download.default_directory=/Users/natalia/ProjectTelRan/QA/QA14_ilCarro/build/downloads/1625674699080_2452_1}
+18:18:19.946 [main] DEBUG c.c.s.webdriver.ChromeDriverFactory - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --no-sandbox], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /Users/natalia/ProjectTelRa..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}

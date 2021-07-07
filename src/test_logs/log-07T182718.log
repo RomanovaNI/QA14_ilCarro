@@ -1,0 +1,33 @@
+18:27:18.565 [main] DEBUG com.codeborne.selenide.impl.Plugins - Using default implementation of com.codeborne.selenide.impl.Photographer: com.codeborne.selenide.impl.WebdriverPhotographer
+18:27:18.570 [main] DEBUG com.codeborne.selenide.impl.Plugins - Using default implementation of com.codeborne.selenide.impl.PageSourceExtractor: com.codeborne.selenide.impl.WebPageSourceExtractor
+18:27:18.578 [main] DEBUG com.codeborne.selenide.impl.Plugins - Using default implementation of com.codeborne.selenide.impl.PageObjectFactory: com.codeborne.selenide.impl.SelenidePageFactory
+18:27:18.599 [main] DEBUG c.c.selenide.impl.CiReportUrl - Variable selenide.reportsUrl not found
+18:27:18.604 [main] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+18:27:18.632 [main] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: /Users/natalia/ProjectTelRan/QA/QA14_ilCarro/build/downloads/1625675238605_2524_1
+18:27:18.634 [main] DEBUG c.c.s.webdriver.WebDriverFactory - browser=chrome
+18:27:18.635 [main] DEBUG c.c.s.webdriver.WebDriverFactory - browser.version=null
+18:27:18.635 [main] DEBUG c.c.s.webdriver.WebDriverFactory - remote=null
+18:27:18.635 [main] DEBUG c.c.s.webdriver.WebDriverFactory - browserSize=1366x768
+18:27:18.635 [main] DEBUG c.c.s.webdriver.WebDriverFactory - startMaximized=false
+18:27:18.635 [main] DEBUG c.c.s.webdriver.WebDriverFactory - downloadsFolder=/Users/natalia/ProjectTelRan/QA/QA14_ilCarro/build/downloads/1625675238605_2524_1
+18:27:19.251 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=91 in cache (valid until 19:15:17 07/07/2021 CEST)
+18:27:19.253 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome91=91.0.4472.101 in cache (valid until 09:53:48 08/07/2021 CEST)
+18:27:19.253 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+18:27:19.291 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 91.0.4472.101 found in cache
+18:27:19.293 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/natalia/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver
+18:27:19.305 [main] DEBUG c.c.s.webdriver.ChromeDriverFactory - Using chrome preferences: {credentials_enable_service=false, plugins.always_open_pdf_externally=true, profile.default_content_setting_values.automatic_downloads=1, download.default_directory=/Users/natalia/ProjectTelRan/QA/QA14_ilCarro/build/downloads/1625675238605_2524_1}
+18:27:19.344 [main] DEBUG c.c.s.webdriver.ChromeDriverFactory - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --no-sandbox], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /Users/natalia/ProjectTelRa..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+18:27:23.133 [main] INFO  c.c.s.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
+18:27:23.135 [main] INFO  c.c.s.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
+18:27:23.135 [main] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1366x768
+18:27:23.261 [main] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=chrome Version=91.0.4472.114 Platform=MAC
+18:27:23.261 [main] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 5.22.3
+18:27:23.261 [main] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+18:27:23.261 [main] INFO  c.c.s.d.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on MAC (4967788024ebcd4374ff640f9d250293)
+18:27:24.366 [main] DEBUG com.codeborne.selenide.impl.Plugins - Using default implementation of com.codeborne.selenide.impl.WebElementSelector: com.codeborne.selenide.impl.WebElementSelector
+18:27:24.369 [main] DEBUG com.codeborne.selenide.impl.Plugins - Using default implementation of com.codeborne.selenide.impl.ElementDescriber: com.codeborne.selenide.impl.SelenideElementDescriber
+18:27:24.456 [main] DEBUG com.codeborne.selenide.impl.Plugins - Using default implementation of com.codeborne.selenide.impl.DownloadFileToFolder: com.codeborne.selenide.impl.DownloadFileToFolder
+18:27:24.458 [main] DEBUG com.codeborne.selenide.impl.Plugins - Using default implementation of com.codeborne.selenide.commands.Commands: com.codeborne.selenide.commands.Commands
+18:27:25.445 [Thread-0] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 25 -> ChromeDriver: chrome on MAC (4967788024ebcd4374ff640f9d250293)...
+18:27:25.447 [Thread-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: /Users/natalia/ProjectTelRan/QA/QA14_ilCarro/build/downloads/1625675238605_2524_1
+18:27:25.595 [Thread-0] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 25 in 150 ms

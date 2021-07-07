@@ -60,6 +60,7 @@ public class UserHelper extends HelperBase{
 
     public void isLogOutTabNotPresent() {
         Assert.assertFalse(isElementsPresent(By.xpath("//a[contains(.,'logOut')]")));
+
     }
     public boolean isLogOutTabNotPresentBoolean() {
        return !isElementsPresent(By.xpath("//a[contains(.,'logOut')]"));
